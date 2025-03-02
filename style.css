@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'SerifText'; 
+    src: url(SerifText/DMSerifText-Regular.ttf); 
+  }
+  
+  body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    background-image: url(love\ letter\ bg.jpg);
+    background-size: cover;
+    height: 100vh; 
+    background-position: center;
+   
+  font-family: 'SerifText';
+  }
+  
+  .wrapper {
+  height: 350px;
+  width: 800px;
+  display: flex;
+  gap: 20px;
+  }
+  
+  .box {
+  flex: 1;
+  width: 70%; 
+  height: auto; 
+  padding: 40px; 
+  background-color: white; 
+  border-radius: 10px; 
+  margin: 50px auto; 
+  text-align: center;
+  }
+  .box1 {
+  background-color: #000000;
+  color: #fff;
+  opacity: 0.3;
+  width: 70%; 
+  height: auto; 
+  padding: 40px;
+  background-color: white; 
+  border-radius: 10px; 
+  margin: 50px auto; 
+  text-align: center;
+  }
+  
+  .box2 {
+    width: 70%; 
+    height: auto; 
+    padding: 40px; 
+    background-color: white; 
+    border-radius: 10px; 
+    margin: 50px auto; 
+    text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 20px  rgb(163, 52, 99);
+  color: #000000;
+  }
+  
